@@ -54,23 +54,6 @@ body {
     transition: 0,25s;
 }
 
-.form-box input[type="text"]:focus,
-.form-box input[type="password"]:focus {
-    width: 250px;
-    border-color: #2f3542;
-}
-
-.form-box button[type="submit"] {
-    border: 0;
-    background: #2f3542;
-    cursor: pointer;
-    border: 3px solid #2f3542;
-}
-
-.form-box button[type="submit"]:hover {
-    background: none;
-}
-
 .form-box button[type="submit2"] {
     border: 0;
     background: none;
@@ -86,6 +69,13 @@ body {
     transition: 0,25s;
 }
 
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus {
+    width: 250px;
+    border-color: #2f3542;
+}
+
+.form-box button[type="submit"],
 .form-box button[type="submit2"] {
     border: 0;
     background: #2f3542;
@@ -93,6 +83,81 @@ body {
     border: 3px solid #2f3542;
 }
 
+.form-box button[type="submit"]:hover,
 .form-box button[type="submit2"]:hover {
+    background: none;
+}
+
+/* Style Registro.html */
+.form-box-registro {
+    width: 300px;
+    padding: 40px;
+    background: #191919;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.form-title-registro {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: averta;
+    font-weight: bold;
+}
+
+.form-box-registro input[type="text1"],
+.form-box-registro input[type="text2"],
+.form-box-registro input[type="text3"],
+.form-box-registro input[type="text4"],
+.form-box-registro input[type="password1"],
+.form-box-registro button[type="submit1"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 3px solid #2f3542;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0,25s;
+}
+
+.form-box-registro button[type="submit3"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 3px solid #2f3542;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0,25s;
+}
+
+.form-box-registro input[type="text1"]:focus,
+.form-box-registro input[type="text2"]:focus,
+.form-box-registro input[type="text3"]:focus,
+.form-box-registro input[type="text4"]:focus,
+.form-box-registro input[type="password1"]:focus {
+    width: 250px;
+    border-color: #2f3542;
+}
+
+.form-box-registro button[type="submit1"],
+.form-box-registro button[type="submit3"] {
+    border: 0;
+    background: #2f3542;
+    cursor: pointer;
+    border: 3px solid #2f3542;
+}
+
+.form-box-registro button[type="submit1"]:hover,
+.form-box-registro button[type="submit3"]:hover {
     background: none;
 }
