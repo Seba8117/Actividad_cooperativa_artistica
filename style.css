@@ -1,0 +1,72 @@
+/* Style login.html */
+@font-face{
+    font-family: averta;
+    src: url(FuenteLogin/Averta.ttf);
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #2f3542;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form-box {
+    width: 300px;
+    padding: 40px;
+    background: #191919;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.form-title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: averta;
+    font-weight: bold;
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 3px solid #2f3542;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0,25s;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus {
+    width: 250px;
+    border-color: #2f3542;
+}
+
+.form-box button[type="submit"] {
+    border: 0;
+    background: #2f3542;
+    cursor: pointer;
+    border: 3px solid #2f3542;
+}
+
+.form-box button[type="submit"]:hover {
+    background: none;
+}
