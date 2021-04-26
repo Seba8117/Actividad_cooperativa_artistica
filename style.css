@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Style login.html */
 @font-face{
     font-family: averta;
@@ -158,4 +159,39 @@ body {
 .form-box-registro button[type="submit1"]:hover,
 .form-box-registro button[type="submit3"]:hover {
     background: none;
+=======
+#bienvenida{
+   text-align: center;
+   background-image: url("https://image.freepik.com/vector-gratis/diseno-fondo-artistico-acuarela_23-2148503666.jpg");
+}
+
+#inicio{
+    font-size: 20px;
+    text-align: center;
+}
+
+#sub_titulos{
+    font-size: 20px;
+    text-align: center;
+}
+
+#espacio{
+    padding:20px;
+}
+
+#uno{
+    font-size: 25px;
+    background-color: cornflowerblue;
+}
+
+#dos{
+    font-size: 25px;
+    background-color: burlywood;
+    
+}
+
+
+img{
+    padding: 20px;
+>>>>>>> 85f1dd3 (se olvido subir comit sobre esto)
 }
